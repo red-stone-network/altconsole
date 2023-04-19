@@ -17,6 +17,7 @@ var style = `.altConsole-body {
   width: 100%;
   top: 0;
   left: 0;
+  border-top: 2px solid white;
   border-bottom: 2px solid white;
 }
 .altConsole-consolebar {
