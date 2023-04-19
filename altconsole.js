@@ -1,6 +1,7 @@
 var altConsoleOpen = false;
 
 var style = `.altConsole-body {
+  all: revert;
   width: 100vw;
   background-color: black;
   color: white;
@@ -11,6 +12,7 @@ var style = `.altConsole-body {
   z-index: 9999;
 }
 .altConsole-titlebar {
+  all: revert;
   position: absolute;
   width: 100%;
   top: 0;
@@ -18,6 +20,7 @@ var style = `.altConsole-body {
   border-bottom: 2px solid white;
 }
 .altConsole-consolebar {
+  all: revert;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -29,6 +32,7 @@ var style = `.altConsole-body {
   font-family: monospace;
 }
 .altConsole-console {
+  all: revert;
   position: absolute;
   bottom: 19px;
   left: 0;
@@ -37,11 +41,13 @@ var style = `.altConsole-body {
   overflow: scroll;
 }
 .altConsole-console > p {
+  all: revert;
   margin: 2px;
   padding-left: 4px;
   font-family: monospace;
 }
 .altConsole-stylebox {
+  all: revert;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -54,27 +60,34 @@ var style = `.altConsole-body {
   font-family: monospace;
 }
 .altConsole-debug {
+  all: revert;
   display: none;
 }
 .altConsole-displayDebug > .altConsole-debug {
+  all: revert;
   border-left: 4px solid #444;
   color: #444;
   display: block;
 }
 .altConsole-eval {
+  all: revert;
   border-left: 4px solid #336;
 }
 .altConsole-log {
+  all: revert;
   border-left: 4px solid gray;
 }
 .altConsole-info {
+  all: revert;
   border-left: 4px solid cyan;
 }
 .altConsole-warn {
+  all: revert;
   border-left: 4px solid orange;
   color: orange;
 }
 .altConsole-err {
+  all: revert;
   border-left: 4px solid red;
   color: red;
 }`;
