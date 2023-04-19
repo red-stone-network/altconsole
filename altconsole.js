@@ -65,31 +65,31 @@ var style = `.altConsole-body {
 }
 .altConsole-displayDebug > .altConsole-debug {
   all: revert;
-  border-left: 4px solid #444;
-  color: #444;
+  border-left: 4px solid #444 !important;
+  color: #444 !important;
   display: block;
 }
 .altConsole-eval {
   all: revert;
-  border-left: 4px solid #336;
+  border-left: 4px solid #336 !important;
 }
 .altConsole-log {
   all: revert;
-  border-left: 4px solid gray;
+  border-left: 4px solid gray !important;
 }
 .altConsole-info {
   all: revert;
-  border-left: 4px solid cyan;
+  border-left: 4px solid cyan !important;
 }
 .altConsole-warn {
   all: revert;
-  border-left: 4px solid orange;
-  color: orange;
+  border-left: 4px solid orange !important;
+  color: orange !important;
 }
 .altConsole-err {
   all: revert;
-  border-left: 4px solid red;
-  color: red;
+  border-left: 4px solid red !important;
+  color: red !important;
 }`;
 var el = document.createElement("STYLE");
 el.id = "altConsole-consoleStyle"
